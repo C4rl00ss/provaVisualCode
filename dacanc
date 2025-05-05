@@ -6,4 +6,4 @@ for (let i = 0; i < 10; i++) {
 var a =12 
 if (a > 10) {
     console.log("a è maggiore di 10")
-}
+};
