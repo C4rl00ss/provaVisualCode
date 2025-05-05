@@ -14,6 +14,3 @@ var b = 30
 if (b > 29) {
     console.log("b è maggiore di 29")
 }
-
-console.log("fine del secondo file")
-console.log("modifica della quinta branch")
