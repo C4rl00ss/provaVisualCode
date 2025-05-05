@@ -14,4 +14,3 @@ var b = 30
 if (b > 29) {
     console.log("b è maggiore di 29")
 }
-console.log("ottava modifica")
