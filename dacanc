@@ -3,10 +3,10 @@ for (let i = 0; i < 10; i++) {
     console.log(i)
 }
 
-var a =12 
+var a =15
 if (a > 10) {
     console.log("a è maggiore di 10")
 };
 
 console.log("fine del primo file")
-console.log("modifica della sesta branch")
+console.log("modifica della quinta branch")

@@ -3,11 +3,17 @@ for (let i = 0; i < 3; i++) {
     console.log(i)
 }
 
-var a = 20
+var a = 22
 if (a > 19) {
     console.log("sei sul secondo file")
 
+
+}
+
+var b = 30
+if (b > 29) {
+    console.log("b è maggiore di 29")
 }
 
 console.log("fine del secondo file")
-console.log("modifica della quarta br")
+console.log("modifica della quinta branch")
