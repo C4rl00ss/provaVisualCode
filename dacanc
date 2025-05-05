@@ -7,3 +7,5 @@ var a =12
 if (a > 10) {
     console.log("a è maggiore di 10")
 };
+
+console.log("fine del secondo file")

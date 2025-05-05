@@ -1,4 +1,9 @@
-console.log("secondo file prova")
+console.log("secondo file prova!")
 for (let i = 0; i < 3; i++) {
     console.log(i)
+}
+
+var a = 20
+if (a > 19) {
+    console.log("sei sul secondo file")
 }
