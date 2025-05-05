@@ -6,4 +6,7 @@ for (let i = 0; i < 3; i++) {
 var a = 20
 if (a > 19) {
     console.log("sei sul secondo file")
+
 }
+
+console.log("fine del secondo file")
