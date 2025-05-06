@@ -1,9 +1,9 @@
-var http = require('http');
-var port = 3000;
-var requestHandler = function(request, response) {
-const { method, url, headers } = request;
-console.log(request.url);
-response.end('Hello World!');
-}
-var server = http.createServer(requestHandler);
-server.listen(port);
+var express = require('express');
+var app = express();
+// Handling GET requests
+app.get('/', function(req, res){
+res.send('Hello World!');
+});
+app.listen(port, function() {
+console.log('Server running on port ', 3000);
+});
