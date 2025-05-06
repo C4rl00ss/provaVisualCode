@@ -1,17 +1,9 @@
-console.log("secondo file prova!")
-for (let i = 0; i < 3; i++) {
-    console.log(i)
+var http = require('http');
+var port = 3000;
+var requestHandler = function(request, response) {
+const { method, url, headers } = request;
+console.log(request.url);
+response.end('Hello World!');
 }
-
-var a = 22
-if (a > 19) {
-    console.log("sei sul secondo file")
-
-
-}
-
-var b = 30
-if (b > 29) {
-    console.log("b è maggiore di 29")
-}
-console.log("nona modifica")
+var server = http.createServer(requestHandler);
+server.listen(port);
